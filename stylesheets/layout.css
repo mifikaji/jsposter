@@ -34,6 +34,7 @@ h1{
 	background-size: contain;
 	background-repeat: no-repeat;
 	animation: sun 17s linear infinite;
+	cursor: pointer;
 }
 
 /* блок с играми */
