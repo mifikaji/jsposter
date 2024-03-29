@@ -59,18 +59,20 @@ h1{
 	width: 15vw;
 	height: 15vw;
 	margin: 25vw 0vw 0vw 1vw;
+	cursor: pointer;
 
 }
 .star2{
 	width: 15vw;
 	height: 15vw;
 	margin: 12vw 0vw 0vw 0vw;
+	cursor: pointer;
 
 }
 .star3{
 	width: 10vw;
 	margin: 0vw 0vw 0vw 22vw;
-
+	cursor: pointer;
 }
 .container1{
 	display: grid;
