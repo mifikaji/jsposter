@@ -1,0 +1,131 @@
+/* Фоновая картинка */
+body{
+	background-image: url(../img/tree.jpg);
+	background-size: 100vw;
+	background-repeat: no-repeat;
+	height: 400vh;
+}
+
+.header{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr;
+}
+.tree{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-auto-flow: column;
+}
+.footer{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr;
+}
+.sun{
+	width: 35vw;
+	height: 35vw;
+	background-image: url(../img/sun.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	animation: sun 17s linear infinite;
+}
+.game1{
+	width: 80vw;
+	height: 45vw;
+	background-image: url(../img/plane.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	justify-self: center;
+}
+
+.card_game{
+	height: 100%;
+	width: 100%;
+	margin-right: 2%;
+    margin-left: 2%;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: 1fr 1fr;
+	align-items: center;
+	justify-items: center;
+	overflow: hidden;
+	
+}
+.card{
+	width: 40%;
+    height: 40%;
+}
+.card_bl{
+	background-image: url(../img/card_bl.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 25vw;
+	height: 35vw;
+}
+.card_bck{
+	background-image: url(../img/card_bck.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 25vw;
+	height: 35vw;
+}
+.card_gr{
+	background-image: url(../img/card_gr.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 25vw;
+	height: 35vw;
+}
+.card_rd{
+	background-image: url(../img/card_rd.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 25vw;
+	height: 35vw;
+}
+.card_vl{
+	background-image: url(../img/card_vl.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 25vw;
+	height: 35vw;
+}
+.card_yl{
+	background-image: url(../img/card_yl.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 25vw;
+	height: 35vw;
+}
+
+
+.game2{
+	width: 80vw;
+	height: 50vw;
+	background-image: url(../img/plane2.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	justify-self: center;
+}
+
+.game3{
+	width: 80vw;
+	height: 50vw;
+	background-image: url(../img/plane.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	justify-self: center;
+}
+
+
+.none {
+    display: none;
+}
+
+.start1,
+.start2{
+	width: 300px;
+	height: 300px;
+	background-color: greenyellow;
+}
