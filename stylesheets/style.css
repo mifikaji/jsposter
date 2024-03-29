@@ -1,6 +1,7 @@
 @import url('reset.css');
 @import url('layout.css');
 @import url('animation.css');
+@import url('responsive.css');
 @font-face {
 	font-family: 'ProximaNova';
 	src: url(../fonts/ProximaNova-Semibold.ttf);

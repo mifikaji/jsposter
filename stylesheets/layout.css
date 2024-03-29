@@ -5,6 +5,15 @@ body{
 	background-repeat: no-repeat;
 }
 
+.attention{
+	width: 90vw;
+	height: 25vw;
+	background-color: white;
+	border: solid black 0.5vw;
+	border-radius: 5vw;
+	display: none;
+}
+
 /* хэдер */
 .header{
 	display: grid;
